@@ -7,9 +7,15 @@ const meta: Meta<CheckboxProps> = {
   component: Checkbox,
   args: {
     id: "checkbox",
+    "aria-labelledby": "checkbox-label",
   },
   argTypes: {
     id: {
+      table: {
+        disable: true,
+      },
+    },
+    "aria-labelledby": {
       table: {
         disable: true,
       },
@@ -19,7 +25,12 @@ const meta: Meta<CheckboxProps> = {
     Story => (
       <div className="flex items-center gap-3">
         {Story()}
-        <Text as="label" htmlFor="checkbox" className="cursor-pointer">
+        <Text
+          id="checkbox-label"
+          as="label"
+          htmlFor="checkbox"
+          className="cursor-pointer"
+        >
           Lembrar de mim por 30 dias
         </Text>
       </div>

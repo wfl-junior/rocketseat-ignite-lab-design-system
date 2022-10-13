@@ -2,8 +2,7 @@ import * as RadixCheckbox from "@radix-ui/react-checkbox";
 import classNames from "classnames";
 import { Check } from "phosphor-react";
 
-export interface CheckboxProps
-  extends React.ComponentPropsWithoutRef<typeof RadixCheckbox.Root> {}
+export interface CheckboxProps extends RadixCheckbox.CheckboxProps {}
 
 export const Checkbox: React.FC<CheckboxProps> = ({ className, ...props }) => (
   <RadixCheckbox.Root

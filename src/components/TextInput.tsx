@@ -16,6 +16,7 @@ export const Input: React.FC<InputProps> = props => (
   <input
     type="text"
     className="flex-1 bg-transparent text-xs text-gray-100 placeholder:text-gray-400 focus:outline-none"
+    id={props.name}
     {...props}
   />
 );
