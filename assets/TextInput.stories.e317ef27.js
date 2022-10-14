@@ -1,0 +1,2 @@
+import{I as r,R as e,a,E as n}from"./TextInput.de0a2f86.js";import{j as t,a as s}from"./jsx-runtime.d14e90d7.js";import"./index.2c00b9d9.js";import"./iframe.6bf80fd6.js";import"./IconBase.esm.c2f3759f.js";const d={title:"Components/TextInput",component:r,args:{placeholder:"johndoe@example.com",type:"text"}},h={decorators:[o=>t(e,{children:o()})]},x={decorators:[o=>s(e,{children:[t(a,{children:t(n,{})}),o()]})]},I=["Default","WithIcon"];export{h as Default,x as WithIcon,I as __namedExportsOrder,d as default};
+//# sourceMappingURL=TextInput.stories.e317ef27.js.map
